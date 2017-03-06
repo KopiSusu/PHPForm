@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Formulaire</title>
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+  <form class="form" action="resultat.php" method="post">
+    <label for="prenom">Prénom: </label>
+    <input id="prenom" class="inputText" type="text" name="prenom" required="">
+    <label for="nom">Nom: </label>
+    <input id="nom" class="inputText" type="text" name="nom" required="">
+    <label for="email">Email: </label>
+    <input id="email" class="inputText" type="email" name="email" required="">
+    <label for="objet">Objet: </label>
+    <input id="objet" class="inputText" type="text" name="objet" required="">
+    <label for="msg">Message: </label>
+    <textarea id="msg" class="inputText" name="msg" required=""></textarea>
+    <input class="inputBtn" type="submit" name="submit" value="Submit">
+  </form>
+</body>
+</html>

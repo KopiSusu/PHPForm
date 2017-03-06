@@ -1,0 +1,19 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  height: 400px; 
+  justify-content: space-around;
+}
+
+.inputText {
+  height: 30px;
+  width: 200px;
+}
+
+.inputBtn {
+  background-color: green; 
+  border: none;
+  border-radius: 10px; 
+  width: 200px;
+  padding: 10px; 
+}
